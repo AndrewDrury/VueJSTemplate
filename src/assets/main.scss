@@ -1,0 +1,24 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css?family=Oxygen|Poiret+One");
+
+#app {
+  font-family: "Oxygen", sans-serif;
+  color: $primary;
+}
+
+.btn {
+  width: 100%;
+  border: 0px !important;
+
+  &.btn-primary {
+    color: $primary !important;
+    background: #abcdef;
+    box-shadow: 0 0 0 0 !important;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $secondary !important;
+    }
+  }
+}
